@@ -31,10 +31,6 @@ requirements:
 test:
   imports:
     - pydrift
-  commands:
-    - pip check
-  requires:
-    - pip
 
 about:
   home: https://github.com/sergiocalde94/Data-And-Model-Drift-Checker
