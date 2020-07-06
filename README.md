@@ -5,7 +5,7 @@ Home: https://github.com/sergiocalde94/Data-And-Model-Drift-Checker
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Measuring the degradation of a machine learning model
 
