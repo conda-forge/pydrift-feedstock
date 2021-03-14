@@ -5,9 +5,13 @@ Home: https://github.com/sergiocalde94/Data-And-Model-Drift-Checker
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pydrift-feedstock/blob/master/LICENSE.txt)
 
 Summary: Measuring the degradation of a machine learning model
+
+Development: https://github.com/sergiocalde94/Data-And-Model-Drift-Checker/
+
+Documentation: https://sergiocalde94.github.io/Data-And-Model-Drift-Checker/
 
 How do we measure the degradation of a machine learning process?
 Why does the performance of our predictive models decrease? Maybe it is
