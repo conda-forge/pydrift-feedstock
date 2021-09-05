@@ -1,5 +1,5 @@
 {% set name = "pydrift" %}
-{% set version = "0.2.12" %}
+{% set version = "0.2.13" %}
 
 package:
   name: {{ name|lower }}
@@ -27,7 +27,7 @@ requirements:
     - scikit-learn >=0.23.1
     - shap >=0.35.0
     - typing-extensions >=3.7.4
-    - plotly >= 4.8.1
+    - plotly >=4.8.1
 
 test:
   imports:
