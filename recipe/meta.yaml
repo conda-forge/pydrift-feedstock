@@ -1,5 +1,5 @@
 {% set name = "pydrift" %}
-{% set version = "0.2.13" %}
+{% set version = "0.2.14" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ada78003a9dbfb0c7de1c21beadb5629af1efb3c756e5feb860902e14183e7b7
+  sha256: f2bfae6f433566f29fe355fc657959132fc966f90552693b4e4bfffec8bf6952
 
 build:
   noarch: python
@@ -16,11 +16,11 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
     - poetry
   run:
-    - python
+    - python >=3.6
     - pip
     - catboost >=0.23
     - pandas >=1.0.3
